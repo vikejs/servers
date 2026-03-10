@@ -1,0 +1,42 @@
+{
+  "name": "@vikejs/fastify",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Fastify server adapter for Vike",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vikejs/servers"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@universal-middleware/fastify": "^0.5.25",
+    "vike": "^0.4.255"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.35",
+    "fastify": "^5.7.4",
+    "tsdown": "^0.21.1",
+    "typescript": "^5.9.3"
+  },
+  "peerDependencies": {
+    "fastify": "^5.0.0"
+  },
+  "sideEffects": false,
+  "keywords": [
+    "vike",
+    "fastify",
+    "server-adapter",
+    "universal-middleware"
+  ]
+}
