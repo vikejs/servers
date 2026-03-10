@@ -1,0 +1,42 @@
+{
+  "name": "@vikejs/hono",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Hono server adapter for Vike",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vikejs/servers"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@universal-middleware/hono": "^0.4.21",
+    "vike": "^0.4.255"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.35",
+    "hono": "^4.12.5",
+    "tsdown": "^0.21.1",
+    "typescript": "^5.9.3"
+  },
+  "peerDependencies": {
+    "hono": "^4.0.0"
+  },
+  "sideEffects": false,
+  "keywords": [
+    "vike",
+    "hono",
+    "server-adapter",
+    "universal-middleware"
+  ]
+}

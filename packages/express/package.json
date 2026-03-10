@@ -1,0 +1,43 @@
+{
+  "name": "@vikejs/express",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Express server adapter for Vike",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vikejs/servers"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@universal-middleware/express": "^0.4.26",
+    "vike": "^0.4.255"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^20.19.35",
+    "express": "^5.2.1",
+    "tsdown": "^0.21.1",
+    "typescript": "^5.9.3"
+  },
+  "peerDependencies": {
+    "express": "^4.0.0 || ^5.0.0"
+  },
+  "sideEffects": false,
+  "keywords": [
+    "vike",
+    "express",
+    "server-adapter",
+    "universal-middleware"
+  ]
+}

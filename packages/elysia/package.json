@@ -1,0 +1,42 @@
+{
+  "name": "@vikejs/elysia",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Elysia server adapter for Vike",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vikejs/servers"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@universal-middleware/elysia": "^0.6.4",
+    "vike": "^0.4.255"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.35",
+    "elysia": "^1.4.27",
+    "tsdown": "^0.21.1",
+    "typescript": "^5.9.3"
+  },
+  "peerDependencies": {
+    "elysia": "^1.0.0"
+  },
+  "sideEffects": false,
+  "keywords": [
+    "vike",
+    "elysia",
+    "server-adapter",
+    "universal-middleware"
+  ]
+}
