@@ -1,6 +1,6 @@
 {
   "name": "@vikejs/hono",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "type": "module",
   "description": "Hono server adapter for Vike",
   "files": [
