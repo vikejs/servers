@@ -1,4 +1,4 @@
-import { apply, type App } from "@universal-middleware/h3";
+import { type App, apply } from "@universal-middleware/h3";
 import vikeMiddleware from "vike/universal-middleware";
 
 export * from "@universal-middleware/h3";
