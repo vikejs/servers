@@ -9,11 +9,15 @@
     "format": "biome format --write .",
     "lint": "biome lint .",
     "check": "biome check --write .",
-    "typecheck": "pnpm -r run typecheck"
+    "typecheck": "pnpm -r run typecheck",
+    "release": "release-it"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.4.6",
+    "@release-it/conventional-changelog": "^10.0.5",
     "@types/node": "^20.19.35",
+    "release-it": "^19.2.4",
+    "release-it-pnpm": "^4.6.6",
     "tsdown": "^0.21.1",
     "typescript": "^5.9.3"
   },
