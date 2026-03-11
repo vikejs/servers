@@ -20,18 +20,19 @@
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "dependencies": {
-    "@universal-middleware/express": "^0.4.26",
-    "vike": "^0.4.255"
+    "@universal-middleware/express": "^0.4.26"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
     "@types/node": "^20.19.35",
     "express": "^5.2.1",
     "tsdown": "^0.21.1",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vike": "0.4.255-commit-05a7b95"
   },
   "peerDependencies": {
-    "express": "^4.0.0 || ^5.0.0"
+    "express": "^4.0.0 || ^5.0.0",
+    "vike": "^0.4.255"
   },
   "sideEffects": false,
   "keywords": [

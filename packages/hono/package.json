@@ -20,17 +20,18 @@
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "dependencies": {
-    "@universal-middleware/hono": "^0.4.21",
-    "vike": "^0.4.255"
+    "@universal-middleware/hono": "^0.4.21"
   },
   "devDependencies": {
     "@types/node": "^20.19.35",
     "hono": "^4.12.5",
     "tsdown": "^0.21.1",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vike": "0.4.255-commit-05a7b95"
   },
   "peerDependencies": {
-    "hono": "^4.0.0"
+    "hono": "^4.0.0",
+    "vike": "^0.4.255"
   },
   "sideEffects": false,
   "keywords": [

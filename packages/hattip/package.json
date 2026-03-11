@@ -20,18 +20,19 @@
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "dependencies": {
-    "@universal-middleware/hattip": "^0.4.16",
-    "vike": "^0.4.255"
+    "@universal-middleware/hattip": "^0.4.16"
   },
   "devDependencies": {
     "@hattip/core": "^0.0.49",
     "@hattip/router": "^0.0.49",
     "@types/node": "^20.19.35",
     "tsdown": "^0.21.1",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vike": "0.4.255-commit-05a7b95"
   },
   "peerDependencies": {
-    "@hattip/router": "^0.0.49"
+    "@hattip/router": "^0.0.49",
+    "vike": "^0.4.255"
   },
   "sideEffects": false,
   "keywords": [
