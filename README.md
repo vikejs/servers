@@ -16,7 +16,7 @@ Server adapters integrating [Vike](https://vike.dev) with various server framewo
 
 ## Overview
 
-Each package exposes an `addVikeMiddleware()` helper that registers Vike's middleware on your server app. They also re-export the full [`@universal-middleware`](https://github.com/magne4000/universal-middleware) API for the corresponding framework.
+Each package exposes a `vike()` helper that registers Vike's middleware on your server app. They also re-export the full [`@universal-middleware`](https://github.com/magne4000/universal-middleware) API for the corresponding framework.
 
 ## Contributing
 

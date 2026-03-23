@@ -12,11 +12,11 @@ npm install @vikejs/express express
 
 ```ts
 import express from 'express'
-import { addVikeMiddleware } from '@vikejs/express'
+import vike from '@vikejs/express'
 
 const app = express()
 
-addVikeMiddleware(app)
+vike(app)
 
 app.listen(3000)
 ```
@@ -24,7 +24,7 @@ app.listen(3000)
 You can pass additional [universal middlewares](https://github.com/magne4000/universal-middleware) as the second argument:
 
 ```ts
-addVikeMiddleware(app, [myMiddleware()])
+vike(app, [myMiddleware()])
 ```
 
 This package also re-exports everything from [`@universal-middleware/express`](https://github.com/magne4000/universal-middleware).

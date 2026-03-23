@@ -12,11 +12,11 @@ npm install @vikejs/hono hono
 
 ```ts
 import { Hono } from 'hono'
-import { addVikeMiddleware } from '@vikejs/hono'
+import vike from '@vikejs/hono'
 
 const app = new Hono()
 
-addVikeMiddleware(app)
+vike(app)
 
 export default app
 ```
@@ -24,7 +24,7 @@ export default app
 You can pass additional [universal middlewares](https://github.com/magne4000/universal-middleware) as the second argument:
 
 ```ts
-addVikeMiddleware(app, [myMiddleware()])
+vike(app, [myMiddleware()])
 ```
 
 This package also re-exports everything from [`@universal-middleware/hono`](https://github.com/magne4000/universal-middleware).

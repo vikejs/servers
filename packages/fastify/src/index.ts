@@ -5,6 +5,6 @@ export * from "@universal-middleware/fastify";
 
 type EnhancedMiddlewareFastify = Parameters<typeof apply>[1][number];
 
-export function addVikeMiddleware(app: App, middlewares: EnhancedMiddlewareFastify[] = []) {
+export default function vike(app: App, middlewares: EnhancedMiddlewareFastify[] = []) {
   return apply(app, [...middlewares, vikeMiddleware]);
 }

@@ -5,6 +5,6 @@ export * from "@universal-middleware/hono";
 
 type EnhancedMiddlewareHono = Parameters<typeof apply>[1][number];
 
-export function addVikeMiddleware(app: App, middlewares: EnhancedMiddlewareHono[] = []) {
+export default function vike(app: App, middlewares: EnhancedMiddlewareHono[] = []) {
   return apply(app, [...middlewares, vikeMiddleware]);
 }

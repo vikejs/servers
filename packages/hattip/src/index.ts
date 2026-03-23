@@ -5,6 +5,6 @@ export * from "@universal-middleware/hattip";
 
 type EnhancedMiddlewareHattip = Parameters<typeof apply>[1][number];
 
-export function addVikeMiddleware(app: App, middlewares: EnhancedMiddlewareHattip[] = []) {
+export default function vike(app: App, middlewares: EnhancedMiddlewareHattip[] = []) {
   return apply(app, [...middlewares, vikeMiddleware]);
 }

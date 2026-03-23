@@ -12,11 +12,11 @@ npm install @vikejs/fastify fastify
 
 ```ts
 import Fastify from 'fastify'
-import { addVikeMiddleware } from '@vikejs/fastify'
+import vike from '@vikejs/fastify'
 
 const app = Fastify()
 
-await addVikeMiddleware(app)
+await vike(app)
 
 await app.listen({ port: 3000 })
 ```
@@ -24,7 +24,7 @@ await app.listen({ port: 3000 })
 You can pass additional [universal middlewares](https://github.com/magne4000/universal-middleware) as the second argument:
 
 ```ts
-await addVikeMiddleware(app, [myMiddleware()])
+await vike(app, [myMiddleware()])
 ```
 
 This package also re-exports everything from [`@universal-middleware/fastify`](https://github.com/magne4000/universal-middleware).

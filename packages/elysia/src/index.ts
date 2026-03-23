@@ -5,6 +5,6 @@ export * from "@universal-middleware/elysia";
 
 type EnhancedMiddlewareElysia = Parameters<typeof apply>[1][number];
 
-export function addVikeMiddleware(app: App, middlewares: EnhancedMiddlewareElysia[] = []) {
+export default function vike(app: App, middlewares: EnhancedMiddlewareElysia[] = []) {
   return apply(app, [...middlewares, vikeMiddleware]);
 }

@@ -5,6 +5,6 @@ export * from "@universal-middleware/srvx";
 
 type EnhancedMiddlewareSrvx = Parameters<typeof apply>[0][number];
 
-export function addVikeMiddleware(middlewares: EnhancedMiddlewareSrvx[] = []) {
+export default function vike(middlewares: EnhancedMiddlewareSrvx[] = []) {
   return apply([...middlewares, vikeMiddleware]);
 }
