@@ -20,13 +20,14 @@
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "dependencies": {
-    "@universal-middleware/express": "^0.4.26"
+    "@universal-middleware/express": "^0.4.26",
+    "srvx": "^0.11.13"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
-    "@types/node": "^20.19.35",
+    "@types/node": "^20.19.37",
     "express": "^5.2.1",
-    "tsdown": "^0.21.1",
+    "tsdown": "^0.21.7",
     "typescript": "^5.9.3",
     "vike": "0.4.255-commit-05a7b95"
   },

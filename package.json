@@ -15,10 +15,10 @@
     "changeset:release": "changeset publish"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.6",
+    "@biomejs/biome": "^2.4.9",
     "@changesets/cli": "^2.30.0",
-    "@types/node": "^20.19.35",
-    "tsdown": "^0.21.1",
+    "@types/node": "^20.19.37",
+    "tsdown": "^0.21.7",
     "typescript": "^5.9.3"
   },
   "engines": {
