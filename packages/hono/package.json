@@ -23,9 +23,9 @@
     "@universal-middleware/hono": "^0.4.21"
   },
   "devDependencies": {
-    "@types/node": "^20.19.35",
-    "hono": "^4.12.5",
-    "tsdown": "^0.21.1",
+    "@types/node": "^20.19.37",
+    "hono": "^4.12.9",
+    "tsdown": "^0.21.7",
     "typescript": "^5.9.3",
     "vike": "0.4.255-commit-05a7b95"
   },

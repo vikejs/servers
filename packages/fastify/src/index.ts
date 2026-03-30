@@ -2,6 +2,7 @@ import { type App, apply } from "@universal-middleware/fastify";
 import vikeMiddleware from "vike/universal-middleware";
 
 export * from "@universal-middleware/fastify";
+export { toFetchHandler } from "srvx/node";
 
 type EnhancedMiddlewareFastify = Parameters<typeof apply>[1][number];
 

@@ -23,9 +23,9 @@
     "@universal-middleware/srvx": "^0.1.3"
   },
   "devDependencies": {
-    "@types/node": "^20.19.35",
-    "srvx": "^0.11.8",
-    "tsdown": "^0.21.1",
+    "@types/node": "^20.19.37",
+    "srvx": "^0.11.13",
+    "tsdown": "^0.21.7",
     "typescript": "^5.9.3",
     "vike": "0.4.255-commit-05a7b95"
   },

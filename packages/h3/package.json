@@ -23,9 +23,9 @@
     "@universal-middleware/h3": "^0.4.17"
   },
   "devDependencies": {
-    "@types/node": "^20.19.35",
-    "h3": "^1.15.6",
-    "tsdown": "^0.21.1",
+    "@types/node": "^20.19.37",
+    "h3": "^1.15.10",
+    "tsdown": "^0.21.7",
     "typescript": "^5.9.3",
     "vike": "0.4.255-commit-05a7b95"
   },
