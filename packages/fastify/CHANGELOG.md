@@ -1,5 +1,11 @@
 # @vikejs/fastify
 
+## 0.2.3
+
+### Patch Changes
+
+- 106bcb5: fix: revert `toFetchHandler` wrapping for fastify
+
 ## 0.2.2
 
 ### Patch Changes
