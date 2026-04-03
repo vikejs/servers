@@ -1,5 +1,11 @@
 # @vikejs/express
 
+## 0.2.2
+
+### Patch Changes
+
+- 0afad6f: fix: bump srvx to avoid deadlock
+
 ## 0.2.1
 
 ### Patch Changes
